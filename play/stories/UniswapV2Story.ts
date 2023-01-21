@@ -8,7 +8,7 @@ import UniswapV2Router02 from '../../cnts/UniswapV2Router02.json';
 import UniswapFactoryV2 from '@uniswap/v2-core/build/UniswapV2Factory.json';
 
 export default class UniswapV2Story {
-  public WETH: IWETH | undefined;
+  public WETH: IWETH;
   public WETHPartner: IERC20 | undefined;
   public tokenA: IERC20 | undefined;
   public tokenB: IERC20 | undefined;
@@ -18,6 +18,7 @@ export default class UniswapV2Story {
 
   constructor(evm: EVM) {
     this.evm = evm;
+    this.initialize()
   }
 
   public async deployContracts() {
@@ -34,12 +35,12 @@ export default class UniswapV2Story {
     ])) as IUniswapV2Router02;
   }
 
-  public async initialize() {
+  public initialize() {
     this.WETH = this.evm.connectToContractByName('WETH') as IWETH;
-    this.tokenA = this.evm.connectToContractByName('TokenA') as IWETH;
-    this.tokenB = this.evm.connectToContractByName('TokenB') as IWETH;
-    this.WETHPartner = this.evm.connectToContractByName('WETHPartner') as IWETH;
-    this.factory = this.evm.connectToContractByName('UniswapV2Factory') as IWETH;
-    this.router = this.evm.connectToContractByName('UniswapV2Router02') as IWETH;
+    this.tokenA = this.evm.connectToContractByName('TokenA') as IERC20;
+    this.tokenB = this.evm.connectToContractByName('TokenB') as IERC20;
+    this.WETHPartner = this.evm.connectToContractByName('WETHPartner') as IERC20;
+    this.factory = this.evm.connectToContractByName('UniswapV2Factory') as IUniswapV2Factory;
+    this.router = this.evm.connectToContractByName('UniswapV2Router02') as IUniswapV2Router02;
   }
 }

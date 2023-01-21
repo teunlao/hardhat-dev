@@ -10,7 +10,7 @@ import EVM from './EVM';
 import { expandTo18Decimals } from './utils';
 import fs from 'fs';
 import { parseUnits } from 'ethers/lib/utils';
-import UniswapV2Story from "./stories/UniswapV2Story";
+import UniswapV2Story from './stories/UniswapV2Story';
 
 async function main() {
   fs.writeFileSync(__dirname + '/deployed/list.txt', '', { flag: 'w+' });
@@ -19,11 +19,18 @@ async function main() {
 
   // evm.wsProvider.on('', (...args) => { console.log(...args); });
 
-  const uniswap = new UniswapV2Story(evm)
-  await uniswap.initialize()
-  console.log(await uniswap.router?.address)
+  const uniswap = new UniswapV2Story(evm);
+  await uniswap.initialize();
+  console.log(await uniswap.router?.address);
 
-
+  await uniswap.router?.swapTokensForExactETH(
+    expandTo18Decimals(20),
+    expandTo18Decimals(500),
+    [uniswap.WETHPartner?.address ?? '', uniswap.WETH?.address ?? ''],
+    100,
+    100,
+    {}
+  );
 
   // async function addLiquidityETH() {
   //   await factoryV2.createPair(WETH.address, WETHPartner.address);
@@ -76,7 +83,6 @@ async function main() {
   // console.log('WETHPartner: after swap: ', await evm.getTokenBalanceByName('WETHPartner'));
   //
   // console.log(await evm.getClientVersion());
-  
 }
 
 main().catch((error) => {
