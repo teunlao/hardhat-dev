@@ -1,0 +1,13 @@
+var { ethers } = import('ethers')
+var { ethers } = await import('ethers')
+ethers.version
+ethers
+ethers
+ethers.version
+var { providers, ethers } = await import('ethers')
+let provider = new providers.JsonRpcProvider('http://127.0.0.1:8545/')
+provider
+string
+
+
+provider

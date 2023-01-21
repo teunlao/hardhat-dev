@@ -1,0 +1,566 @@
+var tx1 = await test.addLiquidity('0x10e75f2e59273cece9785b6255af4af561dea22a', '0xADc6cF61673E610Abd474C9714A6dEBe4F173115', '20000000000000000000', '10000000000000000000', { from: '0x3463F2F4E11fcBafD1f6A86522920d4CAbF6AE40' })
+signer
+const signer = new ethers.Wallet('0xac0974bec39a17e36ba4a6b4d238ff944bacb478cbed5efcae784d7bf4f2ff80')
+const signer new ethers.Wallet('0xac0974bec39a17e36ba4a6b4d238ff944bacb478cbed5efcae784d7bf4f2ff80')
+var tx1 = await test.addLiquidity('0x10e75f2e59273cece9785b6255af4af561dea22a', '0xADc6cF61673E610Abd474C9714A6dEBe4F173115', '20000000000000000000', '10000000000000000000')
+var tx1 = await test.addLiquidity'0x10e75f2e59273cece9785b6255af4af561dea22a', '0xADc6cF61673E610Abd474C9714A6dEBe4F173115', '20000000000000000000', '10000000000000000000')
+var test = await deploy('TestContract', './artifacts/contracts/TestContract.sol/TestContract.json')
+var cnt = await deploy('HWT2', './artifacts/contracts/HelloWorld.sol/HelloWorld.json', ['HelloWorldToken2', 'HWT2'])
+deploy
+var deploy = require('./scripts/deployers/deploy').default
+const deploy = require('./scripts/deployers/deploy')
+var al = await router2.estimateGas.addLiquidityETH('0x4631BCAbD6dF18D94796344963cB60d44a4136b6', "20000000000000000000", "20000000000000000000", "20000000000000000", signer.address, 1674163621);
+var al = await router2.addLiquidityETH('0x4631BCAbD6dF18D94796344963cB60d44a4136b6', "20000000000000000000", "20000000000000000000", "20000000000000000", signer.address, 1674163621);
+);
+var al = await router2.addLiquidityETH('0x4631BCAbD6dF18D94796344963cB60d44a4136b6', "20000000000000000000", "20000000000000000000", "20000000000000000", signer.address, 1674163621
+var signer = await ethers.getSigner()
+router2.addLiquidityETH('0x4631BCAbD6dF18D94796344963cB60d44a4136b6', "20000000000000000000", "20000000000000000000", "20000000000000000")
+router2
+router2 = routerV2.attach('0xf953b3A269d80e3eB0F2947630Da976B896A8C5b')
+routerV2.attach('0xf953b3A269d80e3eB0F2947630Da976B896A8C5b')
+await routerV2.estimateGas.addLiquidityETH('0xBEc49fA140aCaA83533fB00A2BB19bDdd0290f25', '1000', '500', '20', '0xf39Fd6e51aad88F6F4ce6aB8827279cffFb92266', new Date().getTime())
+await routerV2.estimateGas.addLiquidityETH()
+await routerV2.estimateGas.addLiquidity()
+await routerV2.estimateGas.addLiquidity
+await routerV2.signer.getAddress()
+await routerV2.signer
+await routerV2.signer()
+await routerV2.WETH()
+await routerV2.estimateGas.WETH()
+routerV2.estimateGas
+var al = await routerV2.addLiquidityETH('0xBEc49fA140aCaA83533fB00A2BB19bDdd0290f25', '1000', '500', '20', '0xf39Fd6e51aad88F6F4ce6aB8827279cffFb92266', new Date().getTime())
+var al = await routerV2.addLiquidityETH('0xBEc49fA140aCaA83533fB00A2BB19bDdd0290f25', '1000', '500', '10', '20', '0xf39Fd6e51aad88F6F4ce6aB8827279cffFb92266', new Date().getTime())
+await routerV2.swapExactETHForTokens(100000, ['0x4EE6eCAD1c2Dae9f525404De8555724e3c35d07B', '0xBEc49fA140aCaA83533fB00A2BB19bDdd0290f25'], '0x70997970C51812dc3A010C7d01b50e0d17dc79C8', '1674230926')
+await routerV2.swapExactETHForTokens(100000, ['0x4EE6eCAD1c2Dae9f525404De8555724e3c35d07B', '0xBEc49fA140aCaA83533fB00A2BB19bDdd0290f25', '0x70997970C51812dc3A010C7d01b50e0d17dc79C8', 1675082342])
+block.timestamp
+var block = await ethers.provider.getBlock(10)
+new Date().getTime()
+new Date(1674130927)
+block.timestamp
+var block = await ethers.provider.getBlock()
+await ethers.provider.getBlock()
+timestamp
+;
+const timestamp = (await ethers.provider.getBlock(blockNumber)).
+const timestamp = (await ethers.provider.getBlock(blockNumber)).timestamp;
+const timestamp = (await provider.getBlock(blockNumber)).timestamp;
+timers
+await routerV2.resolvedAddress
+await routerV2.resolvedAddress()
+await routerV2.factory()
+await routerV2.WETH()
+var routerV2 = await con('0xfbC22278A96299D91d41C453234d97b4F5Eb9B2d', './waffle/build/UniswapV2Router02.json')
+var routerV2 = await con('0xfbC22278A96299D91d41C453234d97b4F5Eb9B2d', './waffle/build/UniswapV2Router02.json ')
+var routerV2 = con('0xfbC22278A96299D91d41C453234d97b4F5Eb9B2d', './waffle/build/UniswapV2Router02.json')
+var routerV2 = con('0xfbC22278A96299D91d41C453234d97b4F5Eb9B2d', './waffle/build/UniswapV2Router02.json ')
+var con = require('./scripts/connectors/connect')
+var con = require('./scripts/connectors/connect
+await cnt.symbol()
+await cnt.name()
+const cnt = await connect('0x99bbA657f2BbC93c02D617f8bA121cB8Fc104Acf', './waffle/build/WETH9.json')
+const connect = require('./scripts/connectors/connect')
+const contract = connect('0x4826533B4897376654Bb4d4AD88B7faFD0C98528', [{"inputs":[{"internalType":"string","name":"name","type":"string"},{"internalType":"string","name":"symbol","type":"string"}],"stateMutability":"nonpayable","type":"constructor"},{"anonymous":false,"inputs":[{"indexed":true,"internalType":"address","name":"owner","type":"address"},{"indexed":true,"internalType":"address","name":"spender","type":"address"},{"indexed":false,"internalType":"uint256","name":"value","type":"uint256"}],"name":"Approval","type":"event"},{"anonymous":false,"inputs":[{"indexed":true,"internalType":"address","name":"from","type":"address"},{"indexed":true,"internalType":"address","name":"to","type":"address"},{"indexed":false,"internalType":"uint256","name":"value","type":"uint256"}],"name":"Transfer","type":"event"},{"inputs":[{"internalType":"address","name":"owner","type":"address"},{"internalType":"address","name":"spender","type":"address"}],"name":"allowance","outputs":[{"internalType":"uint256","name":"","type":"uint256"}],"stateMutability":"view","type":"function"},{"inputs":[{"internalType":"address","name":"spender","type":"address"},{"internalType":"uint256","name":"amount","type":"uint256"}],"name":"approve","outputs":[{"internalType":"bool","name":"","type":"bool"}],"stateMutability":"nonpayable","type":"function"},{"inputs":[{"internalType":"address","name":"account","type":"address"}],"name":"balanceOf","outputs":[{"internalType":"uint256","name":"","type":"uint256"}],"stateMutability":"view","type":"function"},{"inputs":[],"name":"decimals","outputs":[{"internalType":"uint8","name":"","type":"uint8"}],"stateMutability":"view","type":"function"},{"inputs":[{"internalType":"address","name":"spender","type":"address"},{"internalType":"uint256","name":"subtractedValue","type":"uint256"}],"name":"decreaseAllowance","outputs":[{"internalType":"bool","name":"","type":"bool"}],"stateMutability":"nonpayable","type":"function"},{"inputs":[],"name":"getMessage","outputs":[{"internalType":"uint256","name":"","type":"uint256"}],"stateMutability":"view","type":"function"},{"inputs":[{"internalType":"address","name":"spender","type":"address"},{"internalType":"uint256","name":"addedValue","type":"uint256"}],"name":"increaseAllowance","outputs":[{"internalType":"bool","name":"","type":"bool"}],"stateMutability":"nonpayable","type":"function"},{"inputs":[],"name":"message","outputs":[{"internalType":"uint256","name":"","type":"uint256"}],"stateMutability":"view","type":"function"},{"inputs":[],"name":"name","outputs":[{"internalType":"string","name":"","type":"string"}],"stateMutability":"view","type":"function"},{"inputs":[],"name":"number","outputs":[{"internalType":"string","name":"","type":"string"}],"stateMutability":"view","type":"function"},{"inputs":[{"internalType":"uint256","name":"_message","type":"uint256"}],"name":"setMessage","outputs":[],"stateMutability":"nonpayable","type":"function"},{"inputs":[],"name":"symbol","outputs":[{"internalType":"string","name":"","type":"string"}],"stateMutability":"view","type":"function"},{"inputs":[],"name":"totalSupply","outputs":[{"internalType":"uint256","name":"","type":"uint256"}],"stateMutability":"view","type":"function"},{"inputs":[{"internalType":"address","name":"to","type":"address"},{"internalType":"uint256","name":"amount","type":"uint256"}],"name":"transfer","outputs":[{"internalType":"bool","name":"","type":"bool"}],"stateMutability":"nonpayable","type":"function"},{"inputs":[{"internalType":"address","name":"from","type":"address"},{"internalType":"address","name":"to","type":"address"},{"internalType":"uint256","name":"amount","type":"uint256"}],"name":"transferFrom","outputs":[{"internalType":"bool","name":"","type":"bool"}],"stateMutability":"nonpayable","type":"function"}] )
+const connect = require('./scripts/connectors/connect')
+await c.name()
+var c = await gWETH()
+var gWETH = require('./scripts/connectors/WETH.js')
+const getWETH = require('./scripts/connectors/WETH.js')
+await c.name()
+var c  = new ethers.Contract('0x3Aa5ebB10DC797CAC828524e59A333d0A371443c', source.abi, signer)
+var signer = await ethers.getSigner()
+var source = JSON.parse(fs.readFileSync('./waffle/build/WETH9.json').toString())
+fs.readFileSync('./waffle/build/WETH9.json').toString()
+fs.readFileSync('./waffle/build/WETH9.json')
+fs.readFileSync('./waffle/build/WETH9.json').toSting()
+;
+(fs.readFileSync('./waffle/build/WETH9.json').toSting()
+var source = JSON.parse(fs.readFileSync('./waffle/build/WETH9.json').toSting())
+var c  = new ethers.Contract('0x3Aa5ebB10DC797CAC828524e59A333d0A371443c', source.abi, signer)
+.exit
+ethers.provider
+await c.symbol()
+c.attach('0x3Aa5ebB10DC797CAC828524e59A333d0A371443c')
+await c.approve()
+c.approve()
+var c  = new ethers.Contract('0x3Aa5ebB10DC797CAC828524e59A333d0A371443c', source.abi, signer)
+await c.name()
+var c  = new ethers.Contract('0x3Aa5ebB10DC797CAC828524e59A333d0A371443c', source.abi)
+await c.name()
+var c  = new ethers.Contract('0x3Aa5ebB10DC797CAC828524e59A333d0A371443c', source.abi, ethers.provider)
+await c.name()
+var c  = new ethers.Contract('0x3Aa5ebB10DC797CAC828524e59A333d0A371443c', source.abi, signer)
+await c.name()
+var c  = new ethers.Contract('0x9a9f2ccfde556a7e9ff0848998aa4a0cfd8863ae', source.abi, signer)
+await c.name()
+var c  = new ethers.Contract('0x9a9f2ccfde556a7e9ff0848998aa4a0cfd8863ae', source.abi, signer)
+signer
+var signer = await ethers.getSigner()
+await c.name()
+var c  = new ethers.Contract('0x9a9f2ccfde556a7e9ff0848998aa4a0cfd8863ae', source.abi, (await ethers.getSigners())[0])
+const cnt = new ethers.Contract('0x9a9f2ccfde556a7e9ff0848998aa4a0cfd8863ae', source.abi, (await ethers.getSigners())[0])
+const cnt = new ethers.Contract('0x9a9f2ccfde556a7e9ff0848998aa4a0cfd8863ae', source.abi, (await ethers.getSingers())[0])
+source = JSON.parse(source)
+var source = fs.readFileSync('./waffle/build/WETH9.json').toString()
+var source = JSON.parse(fs.readFileSync('./waffle/build/WETH9.json').toSting())
+var source = fs.readFileSync('./waffle/build/WETH9.json').toString()
+fs.readFileSync('./waffle/build/WETH9.json')
+await c.name()
+await c.symbol()
+await c.token1()
+await c.token0()
+c.signer.address
+c.address
+let c = (await ethers.getContractFactory('UniswapV2Pair')).attach('0x0A71dad2B1f5E7454B8501c8AA5ad33A6B9536dB')
+);
+await ethers.getContractFactory('UniswapV2Pair'
+);
+await ethers.getContractFactory('UniswapV2Pair2'
+await c.getPair('0x0b306bf915c4d645ff596e518faf3f9669b97016', '0xdc64a140aa3e981100a9beca4e685f962f0cf6c9')
+c.getPair('0x0b306bf915c4d645ff596e518faf3f9669b97016', '0xdc64a140aa3e981100a9beca4e685f962f0cf6c9')
+c.getPair()
+c.getPair
+c.getPair[0]
+await c.getPair[0]
+await c.allPairsLength()
+await c.createPair('0x0b306bf915c4d645ff596e518faf3f9669b97016', '0xdc64a140aa3e981100a9beca4e685f962f0cf6c9')
+c.createPair('0x0b306bf915c4d645ff596e518faf3f9669b97016', '0xdc64a140aa3e981100a9beca4e685f962f0cf6c9')
+await c.name()
+await c.createPair()
+await c.feeToSetter()
+await c.allPairsLength()
+await c.allPairs()
+await c.allPairs(1)
+await c.allPairs()
+var c = ((await ethers.getContractFactory('UniswapV2Factory')).attach('0x0dcd1bf9a1b36ce34237eeafef220932846bcd82'))
+c.functions
+c.signer.address
+c.signer
+await c.signer
+await c.signer()
+await c.balanceOf('0xf39Fd6e51aad88F6F4ce6aB8827279cffFb92266')
+await c.balanceOf('0x70997970C51812dc3A010C7d01b50e0d17dc79C8')
+c.transfer('0x70997970C51812dc3A010C7d01b50e0d17dc79C8', 1000000000)
+c.transfer()
+await c.balanceOf('0x70997970C51812dc3A010C7d01b50e0d17dc79C8')
+await c.balanceOf('0xf39Fd6e51aad88F6F4ce6aB8827279cffFb92266')
+await c.name()
+awiat c.name()
+let c = cf.attach('0xdc64a140aa3e981100a9beca4e685f962f0cf6c9')
+let cf = await ethers.getContractFactory('HelloWorld');
+await bb.getMessage()
+let bb = await cf.attach('0xdc64a140aa3e981100a9beca4e685f962f0cf6c9')
+await cf.attach('0xdc64a140aa3e981100a9beca4e685f962f0cf6c9')
+var cd = cf.connect()
+let cc = cf.connect()
+await cc.name()
+let cc = cf.attach('0x2279b7a0a67db372996a5fab50d91eaa73d2ebe6')
+var c = await cf.deploy()
+cf = await ethers.getContractFactory('HelloWorld')
+var cf = ethers.getContractFactory('HelloWorld')
+import { ethers } from 'hardhat'
+await hre.run('compile')
+await hre.run('scripts', 'test')
+await hre.run('srcipts')
+await hre.run('test')
+await hre.run('Deployment')
+await hre.run('test')
+await hre.run('test2')
+await hre.run('test')
+await hre.run()
+await hre.run
+await hre.run('scripts/test.js')
+await hre.run('scripts/test')
+await hre.run('scripts/deploy.ts')
+await hre.run('/scripts/deploy.ts')
+await hre.run('./scripts/deploy.ts')
+await hre.run('./scripts/call.ts')
+await hre.run('scripts/call.ts')
+hre.run('scripts/call.ts')
+hre.run('call.ts')
+node
+await hre.run('./scripts/call.ts')
+await hre.run('scripts/call')
+await hre.run('scripts/call.ts')
+node -v
+await contract.balanceOf('0xf39Fd6e51aad88F6F4ce6aB8827279cffFb92266')
+await contract.balanceOf()
+await contract.symbol()
+await contract.name()
+await contract.getMessage()
+contract
+var contract = new ethers.Contract('0x5fbdb2315678afecb367f032d93f642f64180aa3', source.abi, ethers.provider)
+source.abi
+var source = require('./artifacts/contracts/HelloWorld.sol/HelloWorld.json')
+await c.symbol()
+await c.getMessage()
+await c.symbol()
+await c.totalSupply()
+await c.name()
+var c = cf.attach('0xcf7ed3acca5a467e9e704c703e8d87f634fb0fc9')
+cf.attach('0xcf7ed3acca5a467e9e704c703e8d87f634fb0fc9')
+var cf = await ethers.getContractFactory('HelloWorld')
+await ethers.getContractFactory('HelloWorld')
+ethers.getContractFactory('HelloWorld')
+ethers.getContractAt('0xcf7ed3acca5a467e9e704c703e8d87f634fb0fc9')
+ethers.getContractFactory('')
+ethers.getContractFactory()
+ethers.getContractFactory
+ethers.getContract
+ethers.getContract()
+ethers.getContract
+await cnt.totalSupply()
+await cnt.symbol()
+await cnt.name()
+await getBalance('0xf39Fd6e51aad88F6F4ce6aB8827279cffFb92266', ethers.provider)
+await getBalance(0xf39Fd6e51aad88F6F4ce6aB8827279cffFb92266, ethers.provider)
+await getBalance(cnt.address, ethers.provider)
+cnt.address
+getBalance()
+var { getBalance } = require('./utils/utils') 
+var { getBalance } = require('./utiдs/utils') 
+var { getBalance } = require('./utis/utils') 
+await cnt.totalSupply()
+cnt = new ethers.Contract('0xe7f1725e7734ce288f8367e1bb143e90bb3f0512', HWSource.abi, signer)
+signer = new ethers.Wallet('0xac0974bec39a17e36ba4a6b4d238ff944bacb478cbed5efcae784d7bf4f2ff80', ethers.provider)
+await cnt.decimals()
+cnt.signer = new ethers.Wallet('0xac0974bec39a17e36ba4a6b4d238ff944bacb478cbed5efcae784d7bf4f2ff80', ethers.provider)
+await cnt.decimals()
+cnt.decimals()
+cnt.decimals
+cnt
+var cnt = new ethers.Contract('0x9fe46736679d2d9a65f0992f2272de9f3c7fa6e0', HWSource.abi, signer)
+let signer = singer
+singer
+let singer = new ethers.Wallet('0xac0974bec39a17e36ba4a6b4d238ff944bacb478cbed5efcae784d7bf4f2ff80')
+await ethers.getSigner()
+var cnt = new ethers.Contract('0x9fe46736679d2d9a65f0992f2272de9f3c7fa6e0', HWSource.abi, ethers.getSigner())
+const contract = new ethers.Contract('0x9fe46736679d2d9a65f0992f2272de9f3c7fa6e0', HWSource.abi, ethers.getSigner())
+const HWSource = require('./artifacts/contracts/HelloWorld.sol/HelloWorld.json')
+const contract = new ethers.Contract('0x9fe46736679d2d9a65f0992f2272de9f3c7fa6e0')
+await ethers.getSigners()
+ethers.getSigners()
+ethers.provider
+string
+let c1 = await f1.deploy('Name1', 'NM')
+let f1 = await ethers.getContractFactory('HelloWorld')
+hre.run('compile')
+_.toString()
+await tx.wait()
+tx = await c.transfer('0x8a093882518B6ec04358CB11Df1E48f2Ff29c9D8', BigInt(10 ** 19))
+let BN = ethers.BigNumber.from(BigInt(10 ** 19));
+(totalSupply.toBigInt() / BigInt(10 ** 18))
+(totalSupply.toBigInt() / 100_000_000_000_000_000_00n)
+(totalSupply.toBigInt() / 100_000_000_000_000_000_000n)
+(totalSupply.toBigInt() / 100_000_000_000_000_000_000)
+(totalSupply.toBigInt() / 10 ** 18)
+totalSupply.toBigInt()
+totalSupply.toNumber()
+totalSupply.toJSON()
+let totalSupply = await c.totalSupply()
+BN.add('10')
+let BN = ethers.BigNumber.from(1e15);
+bn = ethers.BigNumber.from(1e15)
+let bn = ethers.BigNumber.from(1e15)
+bn = ethers.BigNumber.from(1e15)
+bn = ethers.BigNumber(1e15)
+let bn = ethers.BigNumber(1e15)
+let bn = ethers.BigNumber(1e16)
+ethers.BigNumber.from('1000000000000000000000')
+ethers.BigNumber.from(10 ** 16)
+ethers.BigNumber.from(10 ** 15)
+ethers.BigNumber.from(1 ** 15)
+ethers.BigNumber.from(1e15)
+ethers.BigNumber.from(1e16)
+ethers.BigNumber.from(1e15)
+ethers.BigNumber.from(1e2)
+ethers.BigNumber.from(1e23)
+ethers.BigNumber.from(1e24)
+ethers.BigNumber.from(1e25)
+ethers.BigNumber.from(1)
+new ethers.BigNumber(1)
+ethers.BigNumber('1')
+ethers.BigNumber(1)
+ethers.BigNumber
+BigNumber
+tx = await c.transfer('0x8a093882518B6ec04358CB11Df1E48f2Ff29c9D8', '1000000000000000000')
+tx = await c.transfer('0x8a093882518B6ec04358CB11Df1E48f2Ff29c9D8', 1000_000_000_000_000_000)
+tx = await c.transfer('0x8a093882518B6ec04358CB11Df1E48f2Ff29c9D8', 1e18)
+1e15 === 100
+1e15
+typeof a
+a = 10 ** 24
+a
+a = 10 ** 19
+10 ** 18
+100000000000000000n
+(10 ** 18)n
+(10 ** 18ºn
+typeof num
+num
+num = 10 ** 14
+num + 25
+let num = 10 ** 25
+(10 ** 20) + 25
+typeof (10 ** 20) + 25
+typeof (10 ** 20)
+(10 ** 20)
+typeof (10 ** 20)
+typeof 10 ** 20
+10 ** 20
+10 ** 18
+tx = await c.transfer('0x8a093882518B6ec04358CB11Df1E48f2Ff29c9D8', 10 ** 18)
+tx = await c.transfer('0x8a093882518B6ec04358CB11Df1E48f2Ff29c9D8', 1)
+tx = await c.transfer('0x8a093882518B6ec04358CB11Df1E48f2Ff29c9D8', 10)
+tx = await c.transfer('0x3463F2F4E11fcBafD1f6A86522920d4CAbF6AE40', '0x8a093882518B6ec04358CB11Df1E48f2Ff29c9D8', 10)
+await c.totalSupply()
+await c.totalSupply
+c
+c = await f.deploy('HelloWorldToken', 'HWT')
+c = await f.deploy()
+let c = await f.delpoy('')
+let f = await ethers.getContractFactory('HelloWorld')
+hre.run('compile')
+await hwc.number()
+hwc.number()
+hwc
+hwc = await hwc
+hwc = _.deploy('33')
+hwf = await ethers.getContractFactory('HelloWorld');
+hre.run('compile')
+await hwc.number()
+hwc = await hwf.deploy('125')
+hwf = await ethers.getContractFactory('HelloWorld');
+await hwc.number()
+hwc = await hwf.deploy('125')
+await hwc.number()
+await hwc.message()
+await hwc.getMessage()
+hwc = await hwf.deploy('125')
+hwf = await ethers.getContractFactory('HelloWorld');
+hre.run('compile')
+let contract = await hwf.deploy('1');
+let hwf = await ethers.getContractFactory('HelloWorld');
+await erc20.totalSupply()
+erc20 = await ERC20Factory.deploy(1000000000000000)
+erc20 = await ERC20Factory.deploy(10000000000000000)
+erc20 = await ERC20Factory.deploy(100000000000000000)
+erc20 = await ERC20Factory.deploy(1000000000000000000)
+let erc20 = await ERC20Factory.deploy(1000000000000000000)
+let erc20 = await ERC20Factory.deploy(100000000000000000000)
+await ERC20.balanceOf('0x3463F2F4E11fcBafD1f6A86522920d4CAbF6AE40')
+await ERC20.name()
+await ERC20.totalSupply()
+signer.address
+let signer = await ethers.getSigner()
+hre.ethers.Signer()
+hre.ethers.Signer
+await ERC20.name();
+await ERC20.getMessage();
+let ERC20 = await ERC20Factory.deploy(100000);
+let ERC20Factory = await ethers.getContractFactory('ERC20');
+hre.network
+await ERC20.name()
+let ERC20 = await ERC20Factory.deploy(100000)
+let ERC20Factory = await ethers.getContractFactory('ERC20');
+tx = await contract.balanceOf(signer.address)
+tx
+tx = await contract.balanceOf(signer)
+let tx = await contract.balanceOf(signer)
+tx
+let tx = await contract.balanceOf(signer)
+await contract.balanceOf(signer)
+let signer = singer
+singer.address
+signer
+let singer = await ethers.getSigner()
+address
+let address = (await ethers.getSigner).address
+await contract.balanceOf()
+await ethers.getSigner()
+ethers.Signer()
+ethers.Signer
+await contract.allowance((await ethers.getSinger()).address)
+await contract.allowance(1, 2)
+await contract.allowance()
+await contract.symbol()
+await contract.estimateGas.approve()
+await contract.estimateGas.approve
+await contract.estimateGas
+await contract.estimateGas()
+await contract.name()
+contract.name()
+contract.name
+contract.totalSupply()
+contract.totalSupply
+await contract.totalSupply()
+hre.run('compile')
+hre.run compile
+hre.config.networks
+hre.config
+compile
+await contract.totalSupply()
+contract.totalSupply()
+contract
+let contract = await cntFactory.deploy();
+let cntFactory = await ethers.getContractFactory('UniswapV2ERC20')
+await tx.wait()
+tx = await hw.setMessage(2245)
+await tx.wait()
+tx.wait()
+let tx = await hw.setMessage(111)
+await hw.getMessage()
+await hw.setMessage(111)
+await hw.getMessage()
+await hw.setMessage('223')
+await hw.getMessage()
+await hw.setMessage('226')
+await hw.getMessage()
+hw = await hwFactorty.deploy('224')
+let hw = await hwFactorty.deploy('224')
+await hw()
+let hw = hwFactorty.deploy('224')
+let hwFactorty = await ethers.getContractFactory('HelloWorld')
+signer.address
+let [signer] = await ethers.getSigners()
+await ethers.getSigners()
+ethers.getSigners
+await att.getMessage()
+await att.setMessage(2)
+await att.getMessage()
+let att = await HWFactory.attach('0x5fbdb2315678afecb367f032d93f642f64180aa3')
+await attached.getMessage()
+let attached = conn.attach(signer.address)
+conn.attach(signer.address)
+conn.attach()
+conn
+let conn = HWFactory.connect()
+await signer.address
+await signer.getAddress()
+let signer = await ethers.getSigner()
+await ethers.getSigner()
+ethers.getSigner()
+let HWFactory = await ethers.getContractFactory('HelloWorld')
+hw
+await hw.getMessage()
+hw
+let hw = await HWFactory.deploy(1)
+HWFactory
+HWFactory = await ethers.getContractFactory('HelloWorld')
+let HWFactory = ethers.getContractFactory('HelloWorld')
+hwconn
+let hwconn = HelloWorldFactory.connect()
+(await HelloWorldFactory.connect()).getMessage()
+(await HelloWorldFactory).connect()
+HelloWorldFactory.connect().getMessage()
+HelloWorldFactory.connect()
+await (await HelloWorldFactoryDeploy.deployed()).getMessage()
+(await HelloWorldFactoryDeploy.deployed()).getMessage()
+await HelloWorldFactoryDeploy.deployed()
+await HelloWorldFactoryDeploy.getMessage()
+HelloWorldFactoryDeploy = await HelloWorldFactory.deploy(1);
+let HelloWorldFactoryDeploy = HelloWorldFactory.deploy();
+HelloWorldFactory.signer.address
+HelloWorld.connect()
+;
+HelloWorld.
+HelloWorldFactory
+let HelloWorldFactory = await ethers.getContractFactory('HelloWorld')
+signer.address
+signer
+let signer = await ethers.getSigner()
+(await ethers.getSigner())
+await ethers.getSigner()
+ethers.getSigner()
+await ethers.getSigner()
+await ethers.getSinger()
+await ethers.getSingers()
+d
+let d = await ethers.getContractFactory('HelloWorld')
+ethers.getContractFactory('HelloWorld')
+await res.deployed();
+await res.deployed()
+await res.message()
+res.message()
+res = await HelloWorld.deploy(1);
+let res = HelloWorld.deploy(1);
+(await (await HelloWorld.deploy(1).deployed()))
+HelloWorld.deploy(1)
+HelloWorld.getDeployTransaction(1)
+HelloWorld.getDeployTransaction()
+HelloWorld.connect().getMessage()
+HelloWorld.connect()
+new ethers.Contract(HelloWorld)
+Object.keys(HelloWorld)
+HelloWorld
+await HelloWorld.attach('0x9fe46736679d2d9a65f0992f2272de9f3c7fa6e0').getMessage()
+HelloWorld.attach('0x9fe46736679d2d9a65f0992f2272de9f3c7fa6e0').getMessage()
+HelloWorld.attach('0x9fe46736679d2d9a65f0992f2272de9f3c7fa6e0').setMessage(254)
+HelloWorld.attach('0x9fe46736679d2d9a65f0992f2272de9f3c7fa6e0')
+HelloWorld.attach()
+HelloWorld
+Object.keys(config)
+config
+Config
+Provider
+provider
+await contract.getMessage()
+contract.getMessage()
+contract = await HelloWorld.attach('0x5fbdb2315678afecb367f032d93f642f64180aa3');
+let HelloWorld = await ethers.getContractFactory('HelloWorld')
+;
+contract = await ((await ethers.getContractFactory('HelloWorld').attach('0x5fbdb2315678afecb367f032d93f642f64180aa3'))
+contract = await (await ethers.getContractFactory('HelloWorld').attach('0x5fbdb2315678afecb367f032d93f642f64180aa3');
+;
+contract = await (await ethers.getContractFactory('HelloWorld').attach('0x5fbdb2315678afecb367f032d93f642f64180aa3')
+await contract.getMessage().call()
+await contract.getMessage()
+await contract.getMessage(123)
+'
+await contract.getMessage('123)
+await contract.getMessage()
+contract.getMessage()
+contract.getMessage
+contract = new ethers.Contract('0x5fbdb2315678afecb367f032d93f642f64180aa3', contractFactory.interface)
+const contract = new ethers.Contract('0x5fbdb2315678afecb367f032d93f642f64180aa3', contractFactory.interface)
+contractFactory.interface
+_.map(i => i)
+typeof _
+_
+contractFactory.interface
+contractFactory
+contractFactory.bytecode
+contractFactory
+contt
+let contractFactory = await ethers.getContractFactory('HelloWorld')
+contractFactory
+ContractFactory
+await ethers.getContractFactory('HelloWorld')
+ethers.getContractFactory('HelloWorld')
+ethers.getContract()
+ethers.getContract
+cnt = await ethers.getContract
+let cnt = await ethers.getContract
+let cnt = await ethers.getContract('HelloWorld')
+await contractDeployed.getMessage()
+await contractDeployed.getMessage().value
+await contractDeployed.getMessage()
+contractDeployed.getMessage()
+contractDeployed
+await contractDeployed.deployed()
+let contractDeployed = await contract.deploy(135)
+const deployed = contract.deploy(125)
+await contract.deploy(125)
+contract.deploy(125)
+let contract = await ethers.getContractFactory('HelloWorld')
+ethers.getContractFactory('HelloWorld')
+ethers.Signer
+Signer
+config
+ethers
+web3= await ethers.getContractFactory('HelloWorld')
+ethers.getContractFactory('HelloWorld')
+ethers.Signer
+Signer
+config
+ethers
+web3
